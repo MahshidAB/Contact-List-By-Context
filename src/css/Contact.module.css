@@ -1,0 +1,28 @@
+.contactList  {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 40px;
+    background-color: #66785F;
+    color: #e6ebe5;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 1.2rem;
+}
+
+.contactList  p {
+    flex-basis: 0;
+    flex-grow: 1;
+}
+
+.contactList span {
+    margin-right: 10px;
+}
+
+.contactList button {
+    margin: 5px;
+    font-size: 1.3rem;
+    cursor: pointer;
+    border-radius: 5px;
+}
