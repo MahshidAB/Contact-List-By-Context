@@ -17,7 +17,7 @@ function Home() {
         const name = event.target.name
         const value = event.target.value
         if (name === 'name' || name === 'lastName') {
-            value.length <= 2 ? setAlert('plz enter at least 6 characters') : setAlert("")
+            value.length <= 2 ? setAlert('plz enter at least 3 characters') : setAlert("")
         }
         if (name === 'email') {
             value.length <= 6 ? setAlert('plz enter at least 7 characters') : setAlert("")
